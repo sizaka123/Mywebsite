@@ -1,0 +1,2387 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+ </head>
+  <body>
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="http://eve.kean.edu/~khadkak/Mywebsite/myweb.html" style="max-width: 10%;"> <img src="http://eve.kean.edu/~khadkak/scrn.jpg" class="img-fluid"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="http://eve.kean.edu/~khadkak/Mywebsite/myweb.html">Home Page</a>
+        </li><li class="nav-item">
+          <a class="nav-link " aria-current="page" href="http://eve.kean.edu/~khadkak/Mywebsite/About me.html">About me</a>
+        </li>
+    </li><li class="nav-item">
+      <a class="nav-link " aria-current="page" href="http://eve.kean.edu/~khadkak/Mywebsite/Contact me.html">Contact me</a>
+        </li>
+    </li><li class="nav-item">
+      <a class="nav-link " aria-current="page" href="http://eve.kean.edu/~khadkak/Mywebsite/My video.html">My Video</a>
+    </li><li class="nav-item">
+        
+          <a class="nav-link" href="http://eve.kean.edu/~khadkak/Mywebsite/Resume.html">My CVV</a>
+        </li>
+        <a class="nav-link" href="http://eve.kean.edu/~khadkak/Mywebsite/My Store.html">My Store</a>
+        </li>
+        <a class="nav-link active" href="http://eve.kean.edu/~khadkak/Mywebsite/Likedln page.html">Linkedln Page</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            My Public Profiles
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="http://eve.kean.edu/~khadkak/Mywebsite/profile1.html">My Profile1</a></li>
+            <li><a class="dropdown-item" href="http://eve.kean.edu/~khadkak/Mywebsite/profile2.html">My Profile 2</a></li>
+            <li><hr class="dropdown-divider"></li>
+            
+          </ul>
+        </li>
+        <li class="nav-item">
+          
+      </ul>
+      <form class="d-flex">
+        
+      </form>
+    </div>
+  </div>
+</nav>
+<div class="container-fluid">
+    
+    
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+<!-- <script async src="https://cse.google.com/cse.js?cx=f2a60b0d13d52693a"></script><div class="gcse-search"></div>-->
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
+
+
+<!---->
+<!---->
+<!---->
+<!---->
+         
+
+   
+
+   
+     
+  <section class="core-section-container my-3 core-section-container--with-border border-b-1 border-solid border-color-border-faint m-0 py-3 pp-section experience">
+<!---->
+         
+           <h2 class="core-section-container__title section-title">
+             
+       Experience
+     
+           </h2>
+       
+       
+<!---->
+     <div class="core-section-container__content break-words">
+       
+       <ul class="experience__list">
+             
+   
+   
+   
+
+   
+   
+
+   <li class="profile-section-card  experience-item" data-section="currentPositionsDetails">
+<!---->          <a class="profile-section-card__image-link" href="https://www.linkedin.com/company/advance-spine-care-and-pain-management?trk=public_profile_experience-item_profile-section-card_image-click" data-tracking-control-name="public_profile_experience-item_profile-section-card_image-click" data-tracking-will-navigate>
+           
+     <img class="artdeco-entity-image artdeco-entity-image--square-4
+         artdeco-entity-image--ghost profile-section-card__image" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/3dtfvv2esz58o2zimai1h3v2d" data-ghost-classes="artdeco-entity-image--ghost" data-ghost-url="https://static.licdn.com/aero-v1/sc/h/3dtfvv2esz58o2zimai1h3v2d" alt="ADVANCE SPINE CARE AND PAIN MANAGEMENT Graphic">
+ 
+         </a>
+
+     <div class="profile-section-card__contents">
+       <h3 class="profile-section-card__title">
+         
+       Medical Biller
+     
+       </h3>
+
+         <h4 class="profile-section-card__subtitle">
+             <a class="profile-section-card__subtitle-link" href="https://www.linkedin.com/company/advance-spine-care-and-pain-management?trk=public_profile_experience-item_profile-section-card_subtitle-click" data-tracking-control-name="public_profile_experience-item_profile-section-card_subtitle-click" data-tracking-will-navigate>
+               
+       ADVANCE SPINE CARE AND PAIN MANAGEMENT
+     
+             </a>
+         </h4>
+
+       
+
+       <div class="profile-section-card__meta">
+         
+<!---->
+<!---->
+<!---->      
+       </div>
+     </div>
+
+     
+   </li>
+ 
+ 
+       </ul>
+     
+     </div>
+ <meta name="pageKey" content="public_profile_v3_desktop">
+          <meta name="linkedin:pageTag" content="nonCanonical">
+        <meta name="locale" content="en_US">
+        <meta id="config" data-app-version="2.0.1029" data-call-tree-id="AAX4c12zl3hPfIZ2p2lUAA==" data-multiproduct-name="public-profile-frontend" data-service-name="public-profile-frontend" data-browser-id="d32e131b-ad8f-4bbe-8277-6eb6ab0614a6" data-enable-page-view-heartbeat-tracking data-disable-comscore-tracking data-page-instance="urn:li:page:public_profile_v3;jCrp0GCBSt6LGyeeQehSPQ==" data-disable-jsbeacon-pagekey-suffix="false" data-member-id="0" data-msafdf-lib="https://static.licdn.com/aero-v1/sc/h/5vm7gg2up6z612zbbmjfuk2co" data-logout-url="/uas/logout" data-is-li-sugr-tracking-enabled>
+
+        <link rel="canonical" href="https://www.linkedin.com/in/kanchan-khadka-33b708260">
+<!----><!---->
+<!---->
+<!---->
+          <meta property="al:android:url" content="https://www.linkedin.com/in/kanchan-khadka-33b708260">
+          <meta property="al:android:package" content="com.linkedin.android">
+          <meta property="al:android:app_name" content="LinkedIn">
+          <meta property="al:ios:url" content="https://www.linkedin.com/in/kanchan-khadka-33b708260">
+          <meta property="al:ios:app_store_id" content="288429040">
+          <meta property="al:ios:app_name" content="LinkedIn">
+
+<!---->
+          <link rel="icon" href="https://static.licdn.com/aero-v1/sc/h/al2o9zrvru7aqj8e1x2rzsrca">
+
+        <script>
+          function getDfd() {let yFn,nFn;const p=new Promise(function(y, n){yFn=y;nFn=n;});p.resolve=yFn;p.reject=nFn;return p;}
+          window.lazyloader = getDfd();
+          window.tracking = getDfd();
+          window.impressionTracking = getDfd();
+          window.ingraphTracking = getDfd();
+          window.appDetection = getDfd();
+          window.pemTracking = getDfd();
+        </script>
+
+<!---->
+        
+        <title>Kanchan Khadka - Medical Biller - ADVANCE SPINE CARE AND PAIN MANAGEMENT | LinkedIn</title>
+
+        
+
+    
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="litmsProfileName" content="public-profile-frontend">
+
+      <meta name="ubba" content="https://static.licdn.com/aero-v1/sc/h/4svzsqcr57n66ib2298cl2jjw">
+
+    <meta name="platform" content="https://static.licdn.com/aero-v1/sc/h/dh1s9fkyemipbtgzcony7n9od">
+    <meta name="platform-worker" content="https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4">
+    
+
+    
+    
+    
+    
+
+        <meta name="description" content="View Kanchan Khadka’s profile on LinkedIn, the world’s largest professional community. Kanchan has 1 job listed on their profile. See the complete profile on LinkedIn and discover Kanchan’s connections and jobs at similar companies.">
+        <meta name="og:description" content="View Kanchan Khadka’s profile on LinkedIn, the world’s largest professional community. Kanchan has 1 job listed on their profile. See the complete profile on LinkedIn and discover Kanchan’s connections and jobs at similar companies.">
+        <meta name="twitter:description" content="View Kanchan Khadka’s profile on LinkedIn, the world’s largest professional community. Kanchan has 1 job listed on their profile. See the complete profile on LinkedIn and discover Kanchan’s connections and jobs at similar companies.">
+  
+    <meta property="og:title" content="Kanchan Khadka - Medical Biller - ADVANCE SPINE CARE AND PAIN MANAGEMENT | LinkedIn">
+    <meta property="og:image" content="https://static.licdn.com/aero-v1/sc/h/244xhbkr7g40x6bsu4gi6q4ry">
+    <meta property="og:type" content="profile">
+
+      <meta property="profile:first_name" content="Kanchan">
+
+      <meta property="profile:last_name" content="Khadka ">
+
+      <meta property="og:url" content="https://www.linkedin.com/in/kanchan-khadka-33b708260">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@Linkedin">
+    <meta name="twitter:title" content="Kanchan Khadka - Medical Biller - ADVANCE SPINE CARE AND PAIN MANAGEMENT | LinkedIn">
+    <meta name="twitter:image" content="https://static.licdn.com/aero-v1/sc/h/244xhbkr7g40x6bsu4gi6q4ry">
+
+<!---->
+<!---->
+      <meta name="linkedin:pageTag" content="nonCanonical">
+
+    <meta name="robots" content="noarchive">
+  
+
+          <meta name="clientSideIngraphs" content="1" data-gauge-metric-endpoint="/public-profile/api/ingraphs/guestGauge" data-counter-metric-endpoint="/public-profile/api/ingraphs/counter">
+
+<!---->
+        <link rel="stylesheet" href="https://static.licdn.com/aero-v1/sc/h/bgoxst2x1wziunavltgdlzee5">
+
+        
+    <script type="application/ld+json">
+      {"@context":"http://schema.org","@graph":[{"@type":"Person","address":{"@type":"PostalAddress","addressLocality":"Colonia, New Jersey, United States"},"alumniOf":[],"awards":[],"image":{"@type":"ImageObject","contentUrl":"https://static.licdn.com/aero-v1/sc/h/244xhbkr7g40x6bsu4gi6q4ry"},"jobTitle":["Medical Biller"],"name":"Kanchan Khadka","sameAs":"https://www.linkedin.com/in/kanchan-khadka-33b708260","url":"https://www.linkedin.com/in/kanchan-khadka-33b708260","memberOf":[],"worksFor":[{"@type":"Organization","name":"ADVANCE SPINE CARE AND PAIN MANAGEMENT","url":"https://www.linkedin.com/company/advance-spine-care-and-pain-management?trk=ppro_cprof","member":{"@type":"OrganizationRole"}}],"knowsLanguage":[],"interactionStatistic":{"@type":"InteractionCounter","interactionType":"https://schema.org/FollowAction","name":"Follows","userInteractionCount":0}},{"@type":"WebPage","url":"https://www.linkedin.com/in/kanchan-khadka-33b708260","reviewedBy":{"@type":"Person","name":"Kanchan Khadka"}}]}
+    </script>
+  
+      
+<!---->      </head>
+      <body dir="ltr">
+<!---->          
+          
+    
+
+    <a href="#main-content" class="skip-link btn-md btn-primary absolute z-11 -top-[100vh] focus:top-0">
+      Skip to main content
+    </a>
+  
+<!---->
+        
+        
+    
+<!---->      
+    
+
+    <a href="#main-content" class="skip-link btn-md btn-primary absolute z-11 -top-[100vh] focus:top-0">
+      Skip to main content
+    </a>
+  
+    <header class="header base-detail-page__header px-mobile-container-padding bg-color-background-container global-alert-offset sticky-header">
+      
+        
+
+    
+    
+    
+    
+
+    <nav class="nav pt-1.5 pb-2 flex items-center justify-between relative flex-nowrap mamabear:flex-wrap mamabear:gap-y-1 babybear:flex-wrap babybear:py-1.5
+         nav--minified-mobile babybear:flex-wrap" aria-label="Primary">
+
+      <a href="/?trk=public_profile_nav-header-logo" class="nav__logo-link link-no-visited-state z-1 mr-auto babybear:z-0 babybear:mr-0 babybear:flex-1 hover:no-underline focus:no-underline active:no-underline" data-tracking-control-name="public_profile_nav-header-logo" data-tracking-will-navigate>
+          
+              
+    
+    <span class="sr-only">LinkedIn</span>
+      <icon class="nav-logo--inbug flex text-color-brand
+          papabear:hidden mamabear:hidden" data-svg-class-name="h-[34px] w-[34px] babybear:h-[27px] babybear:w-[27px]" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/4zqr0f9jf98vi2nkijyc3bex2"></icon>
+      <icon class="block text-color-brand w-[84px] h-[21px] papabear:w-[135px] papabear:h-[34px]
+          babybear:hidden" data-test-id="nav-logo" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/8fkga714vy9b2wk5auqo5reeb"></icon>
+  
+          
+      </a>
+
+<!---->
+        
+    
+    
+    
+    
+    <ul class="top-nav-menu flex items-center nav__menu order-3 after:up-down-divider after:!h-[37px] mr-0.5 babybear:hidden mamabear:hidden">
+        <li class>
+          
+    <a href="https://www.linkedin.com/pulse/topics/home/?trk=public_profile_guest_nav_menu_discover" data-tracking-control-name="public_profile_guest_nav_menu_discover" data-tracking-will-navigate class="top-nav-link flex justify-center items-center h-[52px] hover:text-color-text visited:hover:text-color-text hover:no-underline
+        w-[64px] flex-col mx-1
+        text-color-text-low-emphasis visited:text-color-text-low-emphasis">
+      <icon class="top-nav-link__icon flex h-3 w-3 flex-shrink-0 " data-delayed-url="https://static.licdn.com/aero-v1/sc/h/5x5h6fkfoq2njo0ocxqr98mrk">
+      </icon>
+      <span class="top-nav-link__label-text font-sans text-sm leading-regular text-center
+          font-regular">
+        Discover
+      </span>
+    </a>
+  
+        </li>
+        <li class>
+          
+    <a href="https://www.linkedin.com/pub/dir/+/+?trk=public_profile_guest_nav_menu_people" data-tracking-control-name="public_profile_guest_nav_menu_people" data-tracking-will-navigate class="top-nav-link flex justify-center items-center h-[52px] hover:text-color-text visited:hover:text-color-text hover:no-underline
+        w-[64px] flex-col mx-1
+        top-nav-link--selected text-color-text visited:text-color-text border-solid border-b-2 border-color-text" aria-current="page">
+      <icon class="top-nav-link__icon flex h-3 w-3 flex-shrink-0 " data-delayed-url="https://static.licdn.com/aero-v1/sc/h/7kb6sn3tm4cx918cx9a5jlb0">
+      </icon>
+      <span class="top-nav-link__label-text font-sans text-sm leading-regular text-center
+          font-regular">
+        People
+      </span>
+    </a>
+  
+        </li>
+        <li class>
+          
+    <a href="https://www.linkedin.com/learning/search?trk=public_profile_guest_nav_menu_learning" data-tracking-control-name="public_profile_guest_nav_menu_learning" data-tracking-will-navigate class="top-nav-link flex justify-center items-center h-[52px] hover:text-color-text visited:hover:text-color-text hover:no-underline
+        w-[64px] flex-col mx-1
+        text-color-text-low-emphasis visited:text-color-text-low-emphasis">
+      <icon class="top-nav-link__icon flex h-3 w-3 flex-shrink-0 " data-delayed-url="https://static.licdn.com/aero-v1/sc/h/8wykgzgbqy0t3fnkgborvz54u">
+      </icon>
+      <span class="top-nav-link__label-text font-sans text-sm leading-regular text-center
+          font-regular">
+        Learning
+      </span>
+    </a>
+  
+        </li>
+        <li class>
+          
+    <a href="https://www.linkedin.com/jobs/jobs-in-colonia-nj?trk=public_profile_guest_nav_menu_jobs" data-tracking-control-name="public_profile_guest_nav_menu_jobs" data-tracking-will-navigate class="top-nav-link flex justify-center items-center h-[52px] hover:text-color-text visited:hover:text-color-text hover:no-underline
+        w-[64px] flex-col mx-1
+        text-color-text-low-emphasis visited:text-color-text-low-emphasis">
+      <icon class="top-nav-link__icon flex h-3 w-3 flex-shrink-0 " data-delayed-url="https://static.licdn.com/aero-v1/sc/h/92eb1xekc34eklevj0io6x4ki">
+      </icon>
+      <span class="top-nav-link__label-text font-sans text-sm leading-regular text-center
+          font-regular">
+        Jobs
+      </span>
+    </a>
+  
+        </li>
+    </ul>
+  
+
+      <div class="nav__cta-container order-3 flex gap-x-1 justify-end min-w-[100px] flex-nowrap flex-shrink-0 babybear:flex-wrap flex-2">
+        
+    
+    <a class="nav__button-tertiary btn-md btn-tertiary" href="https://www.linkedin.com/signup/public-profile-join?vieweeVanityName=kanchan-khadka-33b708260&amp;session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fkanchan-khadka-33b708260&amp;trk=public_profile_nav-header-join" data-tracking-control-name="public_profile_nav-header-join" data-test-live-nav-primary-cta data-tracking-will-navigate>
+      Join now
+    </a>
+
+
+        
+  
+  
+
+      
+      <a class="nav__button-secondary btn-md btn-secondary-emphasis" href="https://www.linkedin.com/login?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fin%2Fkanchan-khadka-33b708260&amp;fromSignIn=true&amp;trk=public_profile_nav-header-signin" data-tracking-control-name="public_profile_nav-header-signin" data-tracking-will-navigate>
+          Sign in
+      </a>
+
+
+          <a aria-label="Sign in" class="nav__link-person papabear:hidden mamabear:hidden" data-tracking-control-name="public_profile_nav-header-signin" data-tracking-will-navigate href="https://www.linkedin.com/login?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fin%2Fkanchan-khadka-33b708260&amp;fromSignIn=true&amp;trk=public_profile_nav-header-signin">
+            
+      <img class="inline-block relative
+          rounded-[50%]
+          w-4 h-4
+          bg-color-entity-ghost-background" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2" data-ghost-classes="bg-color-entity-ghost-background" data-ghost-url="https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2" alt>
+  
+          </a>
+      </div>
+
+<!---->
+<!---->    </nav>
+  
+      
+    </header>
+
+    
+<!---->      
+
+<!---->
+    <main class="main papabear:flex papabear:w-content-max-w papabear:mx-auto papabear:pt-desktop-content-top-margin mamabear:pt-desktop-content-top-margin
+        " id="main-content" role="main">
+      <section class="core-rail mx-auto papabear:w-core-rail-width mamabear:max-w-[790px] babybear:max-w-[790px]">
+        
+        
+      
+
+        <div class="details mx-details-container-padding">
+          
+        
+            
+    
+    
+      <section class="profile">
+        
+<!---->
+      
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    <section class="top-card-layout container-lined overflow-hidden babybear:rounded-[0px]">
+        
+    <figure class="cover-img min-h-[87px] papbear:min-h-[100px] rounded-t-[2px] babybear:rounded-[0px] -z-1">
+<!---->      <div class="cover-img__image-frame relative w-full overflow-hidden pb-[calc((134/782)*100%)]">
+        <div class="cover-img__image-position absolute top-0 right-0 bottom-0 left-0
+            ">
+            <img class="cover-img__image relative w-full h-full object-cover" src="https://static.licdn.com/aero-v1/sc/h/5q92mjc5c51bjlwaj3rs9aa82" loading="lazy" data-embed-id="cover-image" alt>
+        </div>
+      </div>
+<!---->    </figure>
+  
+
+      <div class="top-card-layout__card relative p-2 papabear:p-details-container-padding">
+            
+        <div class="top-card__profile-image-container top-card__profile-image-container--cvw-fix
+            top-card-layout__entity-image-container flex" data-section="picture">
+          
+      <img class="artdeco-entity-image artdeco-entity-image--circle-8
+          artdeco-entity-image--ghost top-card-layout__entity-image top-card__profile-image top-card__profile-image--real-image onload
+              top-card-layout__entity-image shadow-color-shadow shadow-[0_4px_12px] border-2 border-solid border-color-surface mt-[-70px] mb-[14px] papabear:border-4 papabear:mt-[-100px] papabear:mb-[18px]" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/244xhbkr7g40x6bsu4gi6q4ry" data-ghost-classes="artdeco-entity-image--ghost" data-ghost-url="https://static.licdn.com/aero-v1/sc/h/244xhbkr7g40x6bsu4gi6q4ry" alt="Kanchan Khadka">
+  
+<!---->        </div>
+      
+
+          <div class="top-card-layout__entity-info-container flex flex-wrap papabear:flex-nowrap">
+            <div class="top-card-layout__entity-info flex-grow flex-shrink-0 basis-0 babybear:flex-none babybear:w-full babybear:flex-none babybear:w-full">
+                  <h1 class="top-card-layout__title font-sans text-lg papabear:text-xl font-bold leading-open text-color-text mb-0">
+                    Kanchan Khadka
+                    
+<!----><!---->      
+                  </h1>
+                <h2 class="top-card-layout__headline break-words font-sans text-md leading-open text-color-text">
+                    --
+                </h2>
+
+                <h3 class="top-card-layout__first-subline font-sans text-md leading-open text-color-text-low-emphasis">
+                  
+          
+    
+    
+    
+
+      <div class="top-card__subline-item">Colonia, New Jersey, United States</div><!----><!---->  
+              
+                </h3>
+
+<!---->
+              <div class="top-card-layout__cta-container flex flex-wrap mt-0.5 papabear:mt-0 ml-[-12px]">
+                    <a class="top-card-layout__cta mt-2 ml-1.5 h-auto babybear:flex-auto top-card-layout__cta--primary btn-md btn-primary" href="https://www.linkedin.com/signup/public-profile-join?vieweeVanityName=kanchan-khadka-33b708260&amp;trk=public_profile_top-card-primary-button-join-to-view-profile" data-tracking-control-name="public_profile_top-card-primary-button-join-to-view-profile" data-tracking-will-navigate>
+                      Join to view profile
+                    </a>
+                  
+<!---->              </div>
+            </div>
+
+                <div class="top-card-layout__entity-info flex-grow flex-shrink-0 basis-0 babybear:flex-none babybear:w-full
+                    top-card-layout__entity-info--right-column ml-details-container-padding max-w-[288px] babybear:my-2 babybear:ml-0">
+                  
+          <div class="top-card__links-container">
+              <div data-section="currentPositionsDetails" class="top-card__right-column-link top-card__position-info with-transition">
+                
+      <a class="top-card-link top-card-link--link" href="https://www.linkedin.com/company/advance-spine-care-and-pain-management?trk=public_profile_topcard-current-company" target="_self" data-tracking-control-name="public_profile_topcard-current-company" data-tracking-will-navigate>
+        
+    
+
+      
+      <img class="artdeco-entity-image artdeco-entity-image--square-1
+          artdeco-entity-image--ghost top-card-link__logo" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/3dtfvv2esz58o2zimai1h3v2d" data-ghost-classes="artdeco-entity-image--ghost" data-ghost-url="https://static.licdn.com/aero-v1/sc/h/3dtfvv2esz58o2zimai1h3v2d" alt="ADVANCE SPINE CARE AND PAIN MANAGEMENT">
+  
+    <span class="top-card-link__description">
+      ADVANCE SPINE CARE AND PAIN MANAGEMENT<!---->    </span>
+  
+      </a>
+  
+              </div>
+<!----><!----><!---->          </div>
+      
+                </div>
+          </div>
+
+          
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+      <div class="ellipsis-menu absolute right-0 top-0 top-card-layout__ellipsis-menu mr-1 papabear:mt-0.5 papabear:mr-2">
+        
+
+    
+
+    <div class="collapsible-dropdown flex items-center relative hyphens-auto">
+          
+            <button class="ellipsis-menu__trigger
+                collapsible-dropdown__button btn-md btn-tertiary cursor-pointer
+                !py-[6px] !px-1 flex items-center rounded-[50%]
+                
+                " aria-expanded="false" aria-label="Open menu" data-tracking-control-name="public_profile_ellipsis-menu-trigger">
+              <icon class="ellipsis-menu__trigger-icon m-0 p-0 centered-icon" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/671xosfpvk4c0kqtyl87hashi"></icon>
+            </button>
+          
+
+        <ul class="collapsible-dropdown__list hidden container-raised absolute w-auto overflow-y-auto flex-col items-stretch z-1 bottom-auto top-[100%]" role="menu" tabindex="-1">
+          
+              
+
+                <li class="ellipsis-menu__item border-t-1 border-solid border-color-border-low-emphasis first-of-type:border-none flex">
+                  
+
+    
+    
+
+    
+
+    
+
+    <a href="/uas/login?fromSignIn=true&amp;session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fkanchan-khadka-33b708260&amp;trk=public_profile_ellipsis-menu-semaphore-sign-in-redirect" data-tracking-control-name="public_profile_ellipsis-menu-semaphore-sign-in-redirect" data-tracking-will-navigate data-item-type="semaphore" data-semaphore-content-type="PROFILE" data-semaphore-content-urn="urn:li:nonIterableMember:ADoAAEAtS98BDSuYNFGaiAn1W26BuPsgI1nWVHE" data-semaphore-tracking-prefix="public_profile_ellipsis-menu-semaphore" data-is-logged-in="false" data-modal="semaphore__toggle" class="semaphore__toggle visited:text-color-text-secondary ellipsis-menu__semaphore ellipsis-menu__item-button flex items-center w-full p-1 cursor-pointer font-sans text-sm font-bold link-styled focus:link-styled link:no-underline active:bg-color-background-container-tint focus:bg-color-background-container-tint hover:bg-color-background-container-tint outline-offset-[-2px]">
+<!---->        
+                      <icon class="ellipsis-menu__item-icon text-color-text h-[24px] w-[24px] mr-1" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/iq0x9q37wj214o129ai1yjut">
+                      </icon>
+                      Report this profile
+                    
+    </a>
+
+    
+    
+    
+    
+
+    
+
+    
+    <div class="hidden">
+        <button class="modal__outlet " data-tracking-control-name="public_profile_ellipsis-menu-semaphore-modal_modal_outlet" data-modal="default-outlet">
+          
+        </button>
+
+      <div id="semaphore-modal" class="modal semaphore-modal max-w-[744px] " data-outlet="default-outlet">
+<!---->        <div class="modal__overlay flex items-center bg-color-background-scrim justify-center fixed bottom-0 left-0 right-0 top-0 opacity-0 invisible pointer-events-none z-[1000] transition-[opacity] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] duration-[0.17s]
+            py-4
+            ">
+          <section aria-modal="true" role="dialog" aria-labelledby="semaphore-modal-modal-header" tabindex="-1" class="max-h-full modal__wrapper overflow-auto p-0 bg-color-surface max-w-[1128px] min-h-[160px] relative scale-[0.25] shadow-sm shadow-color-border-faint transition-[transform] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] duration-[0.33s] focus:outline-0
+               modal__wrapper--with-footer flex flex-col
+              w-[1128px] mamabear:w-[744px] babybear:w-[360px]
+               max-w-[min(744px,100%-24px)]
+              rounded-md">
+              <header class="modal__header flex items-center justify-between border-b-1 border-solid border-color-border-faint py-1.5 px-3
+                  ">
+                  <h2 id="semaphore-modal-modal-header" class="modal__title font-normal leading-open text-color-text text-lg">Report</h2>
+                  <button class="modal__dismiss modal__dismiss--with-icon btn-tertiary h-[40px] w-[40px] p-0 rounded-full indent-0
+                      " aria-label="Dismiss" data-tracking-control-name="public_profile_ellipsis-menu-semaphore-modal_modal_dismiss" type="button">
+                      <icon class="modal__dismiss-icon relative top-[2px]" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/gs508lg3t2o81tq7pmcgn6m2"></icon>
+                  </button>
+<!---->              </header>
+            <main class="modal__main w-full flex-1">
+              
+        <h2 class="semaphore-modal__title text-md font-medium mb-1 ml-2 mt-2 text-color-text">
+          Report<!-- semaphore title goes here -->
+        </h2>
+        <div class="semaphore-modal__content text-color-text"></div>
+      
+            </main>
+
+              <footer class="modal__footer flex justify-end py-1.5 px-3 border-t-1 border-solid border-color-border-faint">
+                
+        <button class="btn-md btn-secondary" data-semaphore-action="back" data-tracking-control-name="semaphore-back">Back</button>
+        <button class="btn-md btn-primary ml-1" data-semaphore-action="submit" data-tracking-control-name="semaphore-submit" disabled="true">Submit</button>
+      
+              </footer>
+          </section>
+        </div>
+      </div>
+    </div>
+  
+  
+    
+    <template id="semaphore-container-template">
+      <ul class="semaphore-options-container mb-2">
+        <!-- list of semaphore options -->
+      </ul>
+    </template>
+  
+    
+    <template id="semaphore-block-template">
+      <li class="px-2 py-1" data-semaphore-item="action">
+        <span class="text-sm text-color-text-low-emphasis whitespace-pre-line" data-attr="block-content"></span>
+        <input class="hidden scale-150" data-tracking-control-name="public_profile_ellipsis-menu-semaphore" name="semaphore-action" checked value data-semaphore-input type="radio">
+      </li>
+    </template>
+  
+    
+    <template id="semaphore-section-template">
+      <li class="px-2 py-1" data-semaphore-item="section">
+        <button class="w-full text-color-text" data-tracking-control-name="public_profile_ellipsis-menu-semaphore" data-semaphore-input>
+          <span class="text-md text-left inline-block w-[calc(100%-24px)]" data-attr="title"></span>
+          <icon class="float-right w-[24px] h-[24px] opacity-60" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/bib7g6ntpj66fbkg8zzh0psp2"></icon>
+        </button>
+      </li>
+    </template>
+  
+    
+    <template id="semaphore-openpage-template">
+      <li class="px-2 py-1 border-t-1 border-solid border-color-border-faint" data-semaphore-item="openpage">
+        <span class="text-md font-medium block my-1" data-attr="body"></span>
+        <button data-tracking-control-name="public_profile_ellipsis-menu-semaphore" data-semaphore-input>
+          <span class="text-md text-color-text" data-attr="title"></span>
+        </button>
+      </li>
+    </template>
+  
+    
+    <template id="semaphore-action-template">
+      <li class="px-2 py-1" data-semaphore-item="action" data-semaphore-type>
+        <span class="text-md font-medium inline-block my-1" data-attr="body"></span>
+        <button class="w-full text-color-text" data-tracking-control-name="public_profile_ellipsis-menu-semaphore" data-semaphore-input>
+          <span class="text-md text-left inline-block w-[calc(100%-24px)]" data-attr="title"></span>
+          <icon class="float-right w-[24px] h-[24px] opacity-60" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/bib7g6ntpj66fbkg8zzh0psp2"></icon>
+        </button>
+      </li>
+    </template>
+  
+    
+    <template id="semaphore-action-radio-template">
+      <li class="px-2 py-1" data-semaphore-item="action">
+        <label>
+          <div class="flex">
+            <input class="scale-150" data-tracking-control-name="public_profile_ellipsis-menu-semaphore" name="semaphore-action" value data-semaphore-input type="radio">
+            <span class="text-md inline-block ml-1" data-attr="title"></span>
+          </div>
+
+          <span class="text-sm text-left inline-block w-[calc(100%-24px)] opacity-60 pl-[30px]" data-attr="body"></span>
+        </label>
+      </li>
+    </template>
+  
+    
+    <template id="semaphore-openlink-template">
+      <li class="px-2 py-1" data-semaphore-item="openlink">
+        <a class="text-color-text hover:no-underline visited:text-color-text" data-semaphore-input data-tracking-control-name="public_profile_ellipsis-menu-semaphore" href target="_blank" data-tracking-will-navigate>
+          <span class="text-md text-color-text font-normal inline-block" data-attr="title"></span>
+          <span class="text-sm text-color-text font-normal inline-block w-[calc(100%-24px)] opacity-60" data-attr="body"></span>
+          <icon class="float-right w-[24px] h-[24px] opacity-60" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/481psuouj1lu3q2laho6vqwhn"></icon>
+        </a>
+      </li>
+    </template>
+  
+    
+    <template id="semaphore-result-template">
+      <p class="semaphore-options-container__item pl-2 pb-2" data-semaphore-item="result">
+        <span class="text-sm font-normal text-color-text-secondary" data-attr="thanks-text-body"></span>
+        <a class="text-sm font-semibold text-color-link" href="https://www.linkedin.com/help/linkedin/answer/37822" target="_blank" data-attr="thanks-help-center-link" data-tracking-control-name="public_profile_ellipsis-menu-semaphore-help-center" data-tracking-will-navigate data-semaphore-input></a>
+      </p>
+    </template>
+  
+  
+                </li>
+<!---->          
+        </ul>
+
+<!---->    </div>
+  
+
+      </div>
+  
+
+<!---->      </div>
+    </section>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+ </head>
+  <body>
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="http://eve.kean.edu/~khadkak/Mywebsite/myweb.html" style="max-width: 10%;"> <img src="http://eve.kean.edu/~khadkak/scrn.jpg" class="img-fluid"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="http://eve.kean.edu/~khadkak/Mywebsite/myweb.html">Home Page</a>
+        </li><li class="nav-item">
+          <a class="nav-link " aria-current="page" href="http://eve.kean.edu/~khadkak/Mywebsite/About me.html">About me</a>
+        </li>
+    </li><li class="nav-item">
+      <a class="nav-link " aria-current="page" href="http://eve.kean.edu/~khadkak/Mywebsite/Contact me.html">Contact me</a>
+        </li>
+    </li><li class="nav-item">
+      <a class="nav-link " aria-current="page" href="http://eve.kean.edu/~khadkak/Mywebsite/My video.html">My Video</a>
+    </li><li class="nav-item">
+        
+          <a class="nav-link" href="http://eve.kean.edu/~khadkak/Mywebsite/Resume.html">My CVV</a>
+        </li>
+        <a class="nav-link" href="http://eve.kean.edu/~khadkak/Mywebsite/My Store.html">My Store</a>
+        </li>
+        <a class="nav-link" href="http://eve.kean.edu/~khadkak/Mywebsite/Likedln page.html">Linkedln Page</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            My Public Profiles
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="http://eve.kean.edu/~khadkak/Mywebsite/profile1.html">My Profile1</a></li>
+            <li><a class="dropdown-item" href="http://eve.kean.edu/~khadkak/Mywebsite/profile2.html">My Profile 2</a></li>
+            <li><hr class="dropdown-divider"></li>
+            
+          </ul>
+        </li>
+        <li class="nav-item">
+          
+      </ul>
+      <form class="d-flex">
+        
+      </form>
+    </div>
+  
+  
+
+<!---->
+<!---->
+<!---->
+<!---->
+          
+
+    
+
+    
+      
+    <section class="core-section-container my-3 core-section-container--with-border border-b-1 border-solid border-color-border-faint m-0 py-3 pp-section experience">
+<!---->
+          
+            <h2 class="core-section-container__title section-title">
+              
+        Experience
+      
+            </h2>
+        
+        
+<!---->
+      <div class="core-section-container__content break-words">
+        
+        <ul class="experience__list">
+              
+    
+    
+    
+
+    
+    
+
+    <li class="profile-section-card  experience-item" data-section="currentPositionsDetails">
+<!---->          <a class="profile-section-card__image-link" href="https://www.linkedin.com/company/advance-spine-care-and-pain-management?trk=public_profile_experience-item_profile-section-card_image-click" data-tracking-control-name="public_profile_experience-item_profile-section-card_image-click" data-tracking-will-navigate>
+            
+      <img class="artdeco-entity-image artdeco-entity-image--square-4
+          artdeco-entity-image--ghost profile-section-card__image" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/3dtfvv2esz58o2zimai1h3v2d" data-ghost-classes="artdeco-entity-image--ghost" data-ghost-url="https://static.licdn.com/aero-v1/sc/h/3dtfvv2esz58o2zimai1h3v2d" alt="ADVANCE SPINE CARE AND PAIN MANAGEMENT Graphic">
+  
+          </a>
+
+      <div class="profile-section-card__contents">
+        <h3 class="profile-section-card__title">
+          
+        Medical Biller
+      
+        </h3>
+
+          <h4 class="profile-section-card__subtitle">
+              <a class="profile-section-card__subtitle-link" href="https://www.linkedin.com/company/advance-spine-care-and-pain-management?trk=public_profile_experience-item_profile-section-card_subtitle-click" data-tracking-control-name="public_profile_experience-item_profile-section-card_subtitle-click" data-tracking-will-navigate>
+                
+        ADVANCE SPINE CARE AND PAIN MANAGEMENT
+      
+              </a>
+          </h4>
+
+        
+
+        <div class="profile-section-card__meta">
+          
+<!---->
+<!---->
+<!---->      
+        </div>
+      </div>
+
+      
+    </li>
+  
+  
+        </ul>
+      
+      </div>
+    </section>
+  
+  
+  
+
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+        
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    <section class="core-section-container my-3 bottom-cta-banner">
+<!---->
+<!---->
+<!---->
+      <div class="core-section-container__content break-words">
+        
+      
+    
+
+    <section class="hidden-summary container-lined p-3 overflow-hidden babybear:p-2" data-impression-id="public_profile_bottom-cta-banner_guest_hidden_summary">
+            <h2 class="hidden-summary__title text-xl text-color-text overflow-hidden break-words mb-2 leading-regular font-normal">
+              View Kanchan’s full profile
+            </h2>
+
+      <ul class="hidden-summary__summary-items">
+              <li class="hidden-summary__summary-item flex text-md text-color-text font-normal leading-open items-center mb-1.5 last:mb-0">
+                <div class="hidden-summary__summary-item-icon-container flex items-center justify-center shrink-0 mr-1">
+                  <icon class="hidden-summary__summary-item-icon h-2 w-2
+                      " alt data-delayed-url="https://static.licdn.com/aero-v1/sc/h/au8rc359lanmyfaah39izyss1"></icon>
+                </div>
+                <span class="hidden-summary__summary-item-text overflow-hidden break-words">
+                  See who you know in common
+                </span>
+              </li>
+              <li class="hidden-summary__summary-item flex text-md text-color-text font-normal leading-open items-center mb-1.5 last:mb-0">
+                <div class="hidden-summary__summary-item-icon-container flex items-center justify-center shrink-0 mr-1">
+                  <icon class="hidden-summary__summary-item-icon h-2 w-2
+                      " alt data-delayed-url="https://static.licdn.com/aero-v1/sc/h/bk9h057z1lch588recizysfdc"></icon>
+                </div>
+                <span class="hidden-summary__summary-item-text overflow-hidden break-words">
+                  Get introduced
+                </span>
+              </li>
+              <li class="hidden-summary__summary-item flex text-md text-color-text font-normal leading-open items-center mb-1.5 last:mb-0">
+                <div class="hidden-summary__summary-item-icon-container flex items-center justify-center shrink-0 mr-1">
+                  <icon class="hidden-summary__summary-item-icon h-2 w-2
+                      " alt data-delayed-url="https://static.licdn.com/aero-v1/sc/h/engl6kavv3716laqjpfbilqqt"></icon>
+                </div>
+                <span class="hidden-summary__summary-item-text overflow-hidden break-words">
+                  Contact Kanchan directly
+                </span>
+              </li>
+      </ul>
+
+          
+              <a class="hidden-summary__cta hidden-summary__cta--secondary btn-sm !text-[16px] btn-secondary-emphasis inline-block mt-3 mr-1.5" href="https://www.linkedin.com/signup/public-profile-join?vieweeVanityName=kanchan-khadka-33b708260&amp;trk=public_profile_bottom-cta-banner" data-tracking-control-name="public_profile_bottom-cta-banner" data-tracking-will-navigate>
+                  Join to view full profile
+              </a>
+        
+    </section>
+  
+    
+      </div>
+    </section>
+  
+  
+    
+      </section>
+  
+  
+
+<!---->  
+          
+      
+        </div>
+      </section>
+      <section class="right-rail papabear:w-right-rail-width papabear:ml-column-gutter mamabear:max-w-[790px] mamabear:px-mobile-container-padding babybear:max-w-[790px] babybear:px-mobile-container-padding">
+        
+        
+            
+    
+    
+    
+
+<!---->
+<!---->
+        
+
+    
+
+    
+      
+      <section class="aside-section-container mb-4 browsemap">
+
+            
+            <h2 class="aside-section-container__title section-title">
+              
+        People also viewed
+      
+            </h2>
+        
+          
+<!---->
+        <div class="aside-section-container__content break-words">
+          
+        
+
+    
+    
+    
+
+    
+    
+    
+
+      <ul class="show-more-less__list show-more-less__list--no-hidden-elems" data-impression-id="public_profile_browsemap_show-more-less">
+        
+            <li>
+              
+    
+    
+    
+      <a href="https://www.linkedin.com/in/brinda-patel-75317b240?trk=public_profile_browsemap" target="_self" data-impression-id="public_profile_browsemap-0" data-tracking-control-name="public_profile_browsemap" data-tracking-will-navigate class="base-card relative w-full hover:no-underline focus:no-underline base-card--link base-aside-card flex my-1.5
+        
+        base-aside-card--link">
+        
+
+<!---->
+      
+<!---->
+            
+              <div class="bg-clip-content bg-contain border-2 border-color-container-neutral-border border-solid box-border h-[56px] rounded-[49.9%] shrink-0 w-[56px]
+                  " data-delayed-url="https://media.licdn.com/dms/image/D4E03AQECD80sbpw6Fg/profile-displayphoto-shrink_100_100/0/1673496362324?e=1686182400&amp;v=beta&amp;t=vYMdW8bTLPS5yZFJJRT3cb2zV48R63_U9Mwtj5Lxf_Q" data-ghost-classes="bg-color-entity-ghost-background" data-ghost-url="https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2" data-delayed-background data-impression-id="public_profile_browsemap-0"></div>
+
+        <div class="base-aside-card__info self-center pl-0.5 flex flex-col flex-1">
+          <h3 class="base-aside-card__title font-sans text-md font-bold text-color-text relative">
+            
+        Brinda Patel
+      
+<!---->          </h3>
+
+            <p class="base-aside-card__subtitle font-sans text-sm text-color-text leading-open mt-0.5 break-words">
+              
+        MS. Health Informatics Student at Hofstra University
+      
+            </p>
+
+<!---->
+<!---->
+            <div class="base-aside-card__metadata font-sans text-sm leading-open font-regular text-color-text-low-emphasis mt-0.5">
+              New York City Metropolitan Area<!---->
+            </div>
+        </div>
+      
+    
+      </a>
+  
+  
+  
+  
+            </li>
+            <li>
+              
+    
+    
+    
+      <a href="https://np.linkedin.com/in/udesh-pandey-233597245?trk=public_profile_browsemap" target="_self" data-impression-id="public_profile_browsemap-1" data-tracking-control-name="public_profile_browsemap" data-tracking-will-navigate class="base-card relative w-full hover:no-underline focus:no-underline base-card--link base-aside-card flex my-1.5
+        
+        base-aside-card--link">
+        
+
+<!---->
+      
+<!---->
+            
+              <div class="bg-clip-content bg-contain border-2 border-color-container-neutral-border border-solid box-border h-[56px] rounded-[49.9%] shrink-0 w-[56px]
+                  " data-delayed-url="https://media.licdn.com/dms/image/D4D03AQFlTTcjgYKlow/profile-displayphoto-shrink_100_100/0/1664764402824?e=1686182400&amp;v=beta&amp;t=369Ovt62p3DcVQ8QOXWe0R9fdZQwX4a776aXt5ce-38" data-ghost-classes="bg-color-entity-ghost-background" data-ghost-url="https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2" data-delayed-background data-impression-id="public_profile_browsemap-1"></div>
+
+        <div class="base-aside-card__info self-center pl-0.5 flex flex-col flex-1">
+          <h3 class="base-aside-card__title font-sans text-md font-bold text-color-text relative">
+            
+        Udesh Pandey
+      
+<!---->          </h3>
+
+            <p class="base-aside-card__subtitle font-sans text-sm text-color-text leading-open mt-0.5 break-words">
+              
+        ECFMG certified International Medical Graduate | Internal Medicine Match Applicant- 2023 | Nepal | AAMC ID: 15861599
+      
+            </p>
+
+<!---->
+<!---->
+            <div class="base-aside-card__metadata font-sans text-sm leading-open font-regular text-color-text-low-emphasis mt-0.5">
+              Kathmandu<!---->
+            </div>
+        </div>
+      
+    
+      </a>
+  
+  
+  
+  
+            </li>
+      
+      </ul>
+  
+  
+      
+        </div>
+      </section>
+  
+  
+  
+
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+        
+      <section class="aside-section-container mb-4">
+
+<!---->
+<!---->
+        <div class="aside-section-container__content break-words">
+          
+          
+    
+    
+    
+
+    <div class="career-hub-cta container-lined flex flex-row p-2">
+      <img class="career-hub-cta__img block mr-1.5 w-[39px] h-[39px]" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/6jd3nbl8hgvgcpth9addkyx3a" alt>
+      <div class="career-hub-cta__content">
+        <h2 class="career-hub-cta__title font-sans text-[18px] leading-regular font-bold text-color-text mb-0.5">
+          Looking for career advice?
+        </h2>
+        <p class="career-hub-cta__body font-sans text-sm leading-regular text-color-text">
+          Visit the Career Advice Hub to see tips on accelerating your career.
+        </p>
+        <a href="https://www.linkedin.com/pulse/topics/home/" class="career-hub-cta__btn btn-sm btn-primary inline-block mt-1" data-tracking-control-name="public_profile_career-hub-cta" data-tracking-will-navigate>
+          View Career Advice Hub
+        </a>
+      </div>
+    </div>
+  
+        
+        </div>
+      </section>
+  
+
+<!---->
+<!---->
+<!---->
+<!---->
+        
+
+    
+    
+    
+
+    
+      
+      <section class="aside-section-container mb-4 samename">
+
+            
+            <h2 class="aside-section-container__title section-title">
+              
+        Others named <strong>Kanchan Khadka</strong>
+      
+            </h2>
+        
+          
+<!---->
+        <div class="aside-section-container__content break-words">
+          
+        
+
+    
+    
+    
+
+    
+    
+    
+
+      <ul class="show-more-less__list show-more-less__list--no-hidden-elems" data-impression-id="public_profile_samename-profile_show-more-less">
+        
+            <li>
+              
+    
+    
+    
+      <a href="https://ca.linkedin.com/in/kanchan-khadka-8b5925215?trk=public_profile_samename-profile" target="_self" data-impression-id="public_profile_samename-profile-0" data-tracking-control-name="public_profile_samename-profile" data-tracking-will-navigate class="base-card relative w-full hover:no-underline focus:no-underline base-card--link base-aside-card flex my-1.5
+        
+        base-aside-card--link">
+        
+
+<!---->
+      
+<!---->
+            
+              
+      <img class="inline-block relative
+          rounded-[50%]
+          w-6 h-6
+          " data-delayed-url="https://media.licdn.com/dms/image/C5603AQH_Mr3NQxtLmA/profile-displayphoto-shrink_100_100/0/1659649607277?e=1686182400&amp;v=beta&amp;t=03eZU9ShZDZ-FDWF-0tJeYzD6a6ipDC86dArGiiG0VI" data-ghost-classes="bg-color-entity-ghost-background" data-ghost-url="https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2" alt>
+  
+
+        <div class="base-aside-card__info self-center pl-0.5 flex flex-col flex-1">
+          <h3 class="base-aside-card__title font-sans text-md font-bold text-color-text relative">
+            
+        Kanchan Khadka
+      
+<!---->          </h3>
+
+            <p class="base-aside-card__subtitle font-sans text-sm text-color-text leading-open mt-0.5 break-words">
+              
+        Sales Support
+      
+            </p>
+
+<!---->
+<!---->
+            <div class="base-aside-card__metadata font-sans text-sm leading-open font-regular text-color-text-low-emphasis mt-0.5">
+              London, ON<!---->
+            </div>
+        </div>
+      
+    
+      </a>
+  
+  
+  
+  
+            </li>
+            <li>
+              
+    
+    
+    
+      <a href="https://np.linkedin.com/in/kanchan-khadka-a881a0181?trk=public_profile_samename-profile" target="_self" data-impression-id="public_profile_samename-profile-1" data-tracking-control-name="public_profile_samename-profile" data-tracking-will-navigate class="base-card relative w-full hover:no-underline focus:no-underline base-card--link base-aside-card flex my-1.5
+        
+        base-aside-card--link">
+        
+
+<!---->
+      
+<!---->
+            
+              
+      <img class="inline-block relative
+          rounded-[50%]
+          w-6 h-6
+          bg-color-entity-ghost-background" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2" data-ghost-classes="bg-color-entity-ghost-background" data-ghost-url="https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2" alt>
+  
+
+        <div class="base-aside-card__info self-center pl-0.5 flex flex-col flex-1">
+          <h3 class="base-aside-card__title font-sans text-md font-bold text-color-text relative">
+            
+        Kanchan Khadka
+      
+<!---->          </h3>
+
+            <p class="base-aside-card__subtitle font-sans text-sm text-color-text leading-open mt-0.5 break-words">
+              
+        --
+      
+            </p>
+
+<!---->
+<!---->
+            <div class="base-aside-card__metadata font-sans text-sm leading-open font-regular text-color-text-low-emphasis mt-0.5">
+              Nepal<!---->
+            </div>
+        </div>
+      
+    
+      </a>
+  
+  
+  
+  
+            </li>
+            <li>
+              
+    
+    
+    
+      <a href="https://np.linkedin.com/in/kanchan-khadka-1111811b4?trk=public_profile_samename-profile" target="_self" data-impression-id="public_profile_samename-profile-2" data-tracking-control-name="public_profile_samename-profile" data-tracking-will-navigate class="base-card relative w-full hover:no-underline focus:no-underline base-card--link base-aside-card flex my-1.5
+        
+        base-aside-card--link">
+        
+
+<!---->
+      
+<!---->
+            
+              
+      <img class="inline-block relative
+          rounded-[50%]
+          w-6 h-6
+          " data-delayed-url="https://media.licdn.com/dms/image/C5603AQEtVxev95wQfw/profile-displayphoto-shrink_100_100/0/1650885227828?e=1686182400&amp;v=beta&amp;t=h-1KQzaZ6o2L1ig6TtdrhyLJntPZKspGe3FLdZiQBUQ" data-ghost-classes="bg-color-entity-ghost-background" data-ghost-url="https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2" alt>
+  
+
+        <div class="base-aside-card__info self-center pl-0.5 flex flex-col flex-1">
+          <h3 class="base-aside-card__title font-sans text-md font-bold text-color-text relative">
+            
+        kanchan khadka
+      
+<!---->          </h3>
+
+            <p class="base-aside-card__subtitle font-sans text-sm text-color-text leading-open mt-0.5 break-words">
+              
+        Student at The Institute of Chartered Accountants of Nepal
+      
+            </p>
+
+<!---->
+<!---->
+            <div class="base-aside-card__metadata font-sans text-sm leading-open font-regular text-color-text-low-emphasis mt-0.5">
+              Bhaktapur<!---->
+            </div>
+        </div>
+      
+    
+      </a>
+  
+  
+  
+  
+            </li>
+            <li>
+              
+    
+    
+    
+      <a href="https://au.linkedin.com/in/kanchan-khadka-275330141?trk=public_profile_samename-profile" target="_self" data-impression-id="public_profile_samename-profile-3" data-tracking-control-name="public_profile_samename-profile" data-tracking-will-navigate class="base-card relative w-full hover:no-underline focus:no-underline base-card--link base-aside-card flex my-1.5
+        
+        base-aside-card--link">
+        
+
+<!---->
+      
+<!---->
+            
+              
+      <img class="inline-block relative
+          rounded-[50%]
+          w-6 h-6
+          bg-color-entity-ghost-background" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2" data-ghost-classes="bg-color-entity-ghost-background" data-ghost-url="https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2" alt>
+  
+
+        <div class="base-aside-card__info self-center pl-0.5 flex flex-col flex-1">
+          <h3 class="base-aside-card__title font-sans text-md font-bold text-color-text relative">
+            
+        Kanchan khadka
+      
+<!---->          </h3>
+
+            <p class="base-aside-card__subtitle font-sans text-sm text-color-text leading-open mt-0.5 break-words">
+              
+        --
+      
+            </p>
+
+<!---->
+<!---->
+            <div class="base-aside-card__metadata font-sans text-sm leading-open font-regular text-color-text-low-emphasis mt-0.5">
+              Australia<!---->
+            </div>
+        </div>
+      
+    
+      </a>
+  
+  
+  
+  
+            </li>
+      
+      </ul>
+  
+  
+        <p class="samename__others-named">
+          11 others named Kanchan Khadka are on LinkedIn
+        </p>
+        <a class="samename__see-all" href="https://www.linkedin.com/pub/dir/Kanchan/Khadka+?trk=public_profile_samename-see-all" data-tracking-control-name="public_profile_samename-see-all" data-tracking-will-navigate>
+          See others named <strong>Kanchan Khadka</strong>
+        </a>
+      
+        </div>
+      </section>
+  
+  
+  
+
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+          
+    
+    
+
+    
+      
+      <section class="aside-section-container mb-4 course-recommendations">
+
+            
+            <h2 class="aside-section-container__title section-title">
+              
+        Add new skills with these courses
+      
+            </h2>
+        
+          
+<!---->
+        <div class="aside-section-container__content break-words">
+          
+        <ul class="course-recommendations__courses">
+            <li class="course-recommendations__course">
+              
+    
+
+    
+    
+    
+      <a href="https://www.linkedin.com/learning/the-data-science-of-healthcare-medicine-and-public-health?trk=public_profile_recommended-course" target="_self" data-tracking-control-name="public_profile_recommended-course" data-tracking-will-navigate class="base-card relative w-full hover:no-underline focus:no-underline base-card--link base-aside-card flex my-1.5
+        hover:show-play-button focus:show-play-button
+        base-aside-card--link aside-learning-course-card">
+        
+
+<!---->
+      
+            <div class="base-aside-card__media flex-shrink-0 h-[54px] mr-0.5 overflow-hidden relative w-[95px]">
+              
+        <img class="base-aside-card__media-element w-[100px] h-full" alt data-delayed-url="https://media.licdn.com/dms/image/C4E0DAQEzdsTEIEXY_g/learning-public-crop_144_256/0/1661360998598?e=1681156800&amp;v=beta&amp;t=XNfm2WEQ1miBFI9XHVw4VoTft4fsAfZN6Ewg2SxL2Xg">
+<!---->      
+                <icon class="base-aside-card__play-button w-auto play-button overlay-center" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/9n9raq7fmdu241tpsxwodsmcd" data-svg-class-name="base-aside-card__play-button-svg"></icon>
+            </div>
+
+        <div class="base-aside-card__info self-center pl-0.5 flex flex-col flex-1">
+          <h3 class="base-aside-card__title font-sans text-md font-bold text-color-text relative">
+            
+        The Data Science of Healthcare, Medicine, and Public Health
+      
+<!---->          </h3>
+
+<!---->
+<!---->
+<!---->
+<!---->        </div>
+      
+    
+      </a>
+  
+  
+  
+  
+            </li>
+            <li class="course-recommendations__course">
+              
+    
+
+    
+    
+    
+      <a href="https://www.linkedin.com/learning/win-new-business-by-running-great-client-facing-meetings?trk=public_profile_recommended-course" target="_self" data-tracking-control-name="public_profile_recommended-course" data-tracking-will-navigate class="base-card relative w-full hover:no-underline focus:no-underline base-card--link base-aside-card flex my-1.5
+        hover:show-play-button focus:show-play-button
+        base-aside-card--link aside-learning-course-card">
+        
+
+<!---->
+      
+            <div class="base-aside-card__media flex-shrink-0 h-[54px] mr-0.5 overflow-hidden relative w-[95px]">
+              
+        <img class="base-aside-card__media-element w-[100px] h-full" alt data-delayed-url="https://media.licdn.com/dms/image/C4E0DAQFIeygacdxbTw/learning-public-crop_144_256/0/1615914337809?e=1681156800&amp;v=beta&amp;t=nVzUibJq1iPr75aML9qW5T770cB2oKngIb-YI8TBGxU">
+<!---->      
+                <icon class="base-aside-card__play-button w-auto play-button overlay-center" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/9n9raq7fmdu241tpsxwodsmcd" data-svg-class-name="base-aside-card__play-button-svg"></icon>
+            </div>
+
+        <div class="base-aside-card__info self-center pl-0.5 flex flex-col flex-1">
+          <h3 class="base-aside-card__title font-sans text-md font-bold text-color-text relative">
+            
+        Win New Business by Running Great Client-Facing Meetings
+      
+<!---->          </h3>
+
+<!---->
+<!---->
+<!---->
+<!---->        </div>
+      
+    
+      </a>
+  
+  
+  
+  
+            </li>
+            <li class="course-recommendations__course">
+              
+    
+
+    
+    
+    
+      <a href="https://www.linkedin.com/learning/cybersecurity-careers-become-an-identity-and-access-management-manager?trk=public_profile_recommended-course" target="_self" data-tracking-control-name="public_profile_recommended-course" data-tracking-will-navigate class="base-card relative w-full hover:no-underline focus:no-underline base-card--link base-aside-card flex my-1.5
+        hover:show-play-button focus:show-play-button
+        base-aside-card--link aside-learning-course-card">
+        
+
+<!---->
+      
+            <div class="base-aside-card__media flex-shrink-0 h-[54px] mr-0.5 overflow-hidden relative w-[95px]">
+              
+        <img class="base-aside-card__media-element w-[100px] h-full" alt data-delayed-url="https://media.licdn.com/dms/image/C560DAQGQm0H2C8ECxw/learning-public-crop_144_256/0/1671648514840?e=1681156800&amp;v=beta&amp;t=qvH1HjES4nYa7eCE3bVbvExd5tcJk_ErJ4bHbiLAbQA">
+<!---->      
+                <icon class="base-aside-card__play-button w-auto play-button overlay-center" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/9n9raq7fmdu241tpsxwodsmcd" data-svg-class-name="base-aside-card__play-button-svg"></icon>
+            </div>
+
+        <div class="base-aside-card__info self-center pl-0.5 flex flex-col flex-1">
+          <h3 class="base-aside-card__title font-sans text-md font-bold text-color-text relative">
+            
+        Cybersecurity Careers: Become an Identity and Access Management Manager
+      
+<!---->          </h3>
+
+<!---->
+<!---->
+<!---->
+<!---->        </div>
+      
+    
+      </a>
+  
+  
+  
+  
+            </li>
+        </ul>
+        <a href="https://www.linkedin.com/learning/?trk=seo_pp_d_cymbii_more_m020_learning" class="course-recommendations__view-all-link" data-tracking-control-name="seo_pp_d_cymbii_more_m020_learning" data-tracking-will-navigate>
+          See all courses
+        </a>
+      
+        </div>
+      </section>
+  
+  
+  
+
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+          
+
+    
+    
+    
+
+    
+      
+      <section class="aside-section-container mb-4 profile-badge">
+
+            
+            <h2 class="aside-section-container__title section-title">
+              
+        Kanchan’s public profile badge
+      
+            </h2>
+        
+          
+<!---->
+        <div class="aside-section-container__content break-words">
+          
+        <p class="badge__subheading">Include this LinkedIn profile on other websites</p>
+        
+
+    
+    
+    
+    
+    
+    
+
+    <article class="profile-card profile-card--badge" itemscope itemtype="http://schema.org/Person">
+      <header class="profile-card__header">
+        
+      <img class="artdeco-entity-image artdeco-entity-image--circle-3
+          artdeco-entity-image--ghost profile-card__profile-image" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/244xhbkr7g40x6bsu4gi6q4ry" data-ghost-classes="artdeco-entity-image--ghost" data-ghost-url="https://static.licdn.com/aero-v1/sc/h/244xhbkr7g40x6bsu4gi6q4ry" alt="Kanchan Khadka placeholder image">
+  
+        <div class="profile-card__header-info">
+            <h3 class="profile-card__header-name" itemprop="name">
+              Kanchan Khadka
+            </h3>
+            <p class="profile-card__header-headline" itemprop="jobTitle">--</p>
+        </div>
+      </header>
+        <section class="profile-card__section ">
+          <ul class="profile-card__list">
+              
+      <li class="profile-list-item profile-list-item--company profile-badge-item" itemprop="affiliation" itemscope itemtype="http://schema.org/Organization">
+        
+
+    
+    
+    
+
+    
+      <img class="artdeco-entity-image artdeco-entity-image--square-1
+          artdeco-entity-image--ghost profile-list-item__image" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/3dtfvv2esz58o2zimai1h3v2d" data-ghost-classes="artdeco-entity-image--ghost" data-ghost-url="https://static.licdn.com/aero-v1/sc/h/3dtfvv2esz58o2zimai1h3v2d" alt="company placeholder image">
+  
+    <p class="profile-list-item__name profile-list-item__name--company" itemprop="name">
+        Medical Biller at ADVANCE SPINE CARE AND PAIN MANAGEMENT
+    </p>
+  
+      </li>
+  
+          </ul>
+        </section>
+<!----><!----><!---->      <footer class="profile-card__footer profile-card__footer--badge">
+          <button disabled class="profile-card__footer-button">View profile</button>
+          <icon class="profile-card__linkedin-logo" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/a3fnfnqvbbolvy47fxmpit4t4"></icon>
+      </footer>
+    </article>
+  
+        <a class="badge__link" href="https://www.linkedin.com/badges/profile/create?vanityname=kanchan-khadka-33b708260&amp;preferredlocale=en_US&amp;trk=public_profile_badge" data-tracking-control-name="public_profile_badge" data-tracking-will-navigate>
+          View profile badges
+        </a>
+      
+        </div>
+      </section>
+  
+  
+  
+
+
+<!---->  
+          
+      
+      </section>
+    </main>
+
+<!---->
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    <footer class="li-footer bg-transparent w-full ">
+      <ul class="li-footer__list flex flex-wrap flex-row items-start justify-start w-full h-auto min-h-[50px] my-[0px] mx-auto py-3 px-2 papabear:w-[1128px] papabear:p-0">
+        
+  <li class="li-footer__item font-sans text-xs text-color-text-low-emphasis flex flex-shrink-0 justify-start p-1 relative w-50% papabear:justify-center papabear:w-auto">
+        
+          <span class="sr-only">LinkedIn</span>
+          <icon class="li-footer__copy-logo text-color-logo-brand-alt inline-block self-center h-[14px] w-[56px] mr-1" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/e12h2cd8ac580qen9qdd0qks8"></icon>
+          <span class="li-footer__copy-text flex items-center">&copy; 2023</span>
+        
+  </li>
+
+        
+  <li class="li-footer__item font-sans text-xs text-color-text-low-emphasis flex flex-shrink-0 justify-start p-1 relative w-50% papabear:justify-center papabear:w-auto">
+        <a class="li-footer__item-link flex items-center font-sans text-xs font-bold text-color-text-low-emphasis hover:text-color-link-hover focus:text-color-link-focus" href="https://about.linkedin.com?trk=public_profile_v3_desktop_footer-about" data-tracking-control-name="public_profile_v3_desktop_footer-about" data-tracking-will-navigate>
+          
+          About
+        
+        </a>
+  </li>
+
+        
+  <li class="li-footer__item font-sans text-xs text-color-text-low-emphasis flex flex-shrink-0 justify-start p-1 relative w-50% papabear:justify-center papabear:w-auto">
+        <a class="li-footer__item-link flex items-center font-sans text-xs font-bold text-color-text-low-emphasis hover:text-color-link-hover focus:text-color-link-focus" href="https://www.linkedin.com/accessibility?trk=public_profile_v3_desktop_footer-accessibility" data-tracking-control-name="public_profile_v3_desktop_footer-accessibility" data-tracking-will-navigate>
+          
+          Accessibility
+        
+        </a>
+  </li>
+
+        
+  <li class="li-footer__item font-sans text-xs text-color-text-low-emphasis flex flex-shrink-0 justify-start p-1 relative w-50% papabear:justify-center papabear:w-auto">
+        <a class="li-footer__item-link flex items-center font-sans text-xs font-bold text-color-text-low-emphasis hover:text-color-link-hover focus:text-color-link-focus" href="https://www.linkedin.com/legal/user-agreement?trk=public_profile_v3_desktop_footer-user-agreement" data-tracking-control-name="public_profile_v3_desktop_footer-user-agreement" data-tracking-will-navigate>
+          
+          User Agreement
+        
+        </a>
+  </li>
+
+        
+  <li class="li-footer__item font-sans text-xs text-color-text-low-emphasis flex flex-shrink-0 justify-start p-1 relative w-50% papabear:justify-center papabear:w-auto">
+        <a class="li-footer__item-link flex items-center font-sans text-xs font-bold text-color-text-low-emphasis hover:text-color-link-hover focus:text-color-link-focus" href="https://www.linkedin.com/legal/privacy-policy?trk=public_profile_v3_desktop_footer-privacy-policy" data-tracking-control-name="public_profile_v3_desktop_footer-privacy-policy" data-tracking-will-navigate>
+          
+          Privacy Policy
+        
+        </a>
+  </li>
+
+          
+  <li class="li-footer__item font-sans text-xs text-color-text-low-emphasis flex flex-shrink-0 justify-start p-1 relative w-50% papabear:justify-center papabear:w-auto">
+        <a class="li-footer__item-link flex items-center font-sans text-xs font-bold text-color-text-low-emphasis hover:text-color-link-hover focus:text-color-link-focus" href="https://www.linkedin.com/legal/california-privacy-disclosure?trk=public_profile_v3_desktop_footer-california-privacy-rights-act" data-tracking-control-name="public_profile_v3_desktop_footer-california-privacy-rights-act" data-tracking-will-navigate>
+          
+            Your California Privacy Choices
+          
+        </a>
+  </li>
+
+        
+  <li class="li-footer__item font-sans text-xs text-color-text-low-emphasis flex flex-shrink-0 justify-start p-1 relative w-50% papabear:justify-center papabear:w-auto">
+        <a class="li-footer__item-link flex items-center font-sans text-xs font-bold text-color-text-low-emphasis hover:text-color-link-hover focus:text-color-link-focus" href="https://www.linkedin.com/legal/cookie-policy?trk=public_profile_v3_desktop_footer-cookie-policy" data-tracking-control-name="public_profile_v3_desktop_footer-cookie-policy" data-tracking-will-navigate>
+          
+          Cookie Policy
+        
+        </a>
+  </li>
+
+        
+  <li class="li-footer__item font-sans text-xs text-color-text-low-emphasis flex flex-shrink-0 justify-start p-1 relative w-50% papabear:justify-center papabear:w-auto">
+        <a class="li-footer__item-link flex items-center font-sans text-xs font-bold text-color-text-low-emphasis hover:text-color-link-hover focus:text-color-link-focus" href="https://www.linkedin.com/legal/copyright-policy?trk=public_profile_v3_desktop_footer-copyright-policy" data-tracking-control-name="public_profile_v3_desktop_footer-copyright-policy" data-tracking-will-navigate>
+          
+          Copyright Policy
+        
+        </a>
+  </li>
+
+        
+  <li class="li-footer__item font-sans text-xs text-color-text-low-emphasis flex flex-shrink-0 justify-start p-1 relative w-50% papabear:justify-center papabear:w-auto">
+        <a class="li-footer__item-link flex items-center font-sans text-xs font-bold text-color-text-low-emphasis hover:text-color-link-hover focus:text-color-link-focus" href="https://brand.linkedin.com/policies?trk=public_profile_v3_desktop_footer-brand-policy" data-tracking-control-name="public_profile_v3_desktop_footer-brand-policy" data-tracking-will-navigate>
+          
+          Brand Policy
+        
+        </a>
+  </li>
+
+          
+  <li class="li-footer__item font-sans text-xs text-color-text-low-emphasis flex flex-shrink-0 justify-start p-1 relative w-50% papabear:justify-center papabear:w-auto">
+        <a class="li-footer__item-link flex items-center font-sans text-xs font-bold text-color-text-low-emphasis hover:text-color-link-hover focus:text-color-link-focus" href="https://www.linkedin.com/psettings/guest-controls?trk=public_profile_v3_desktop_footer-guest-controls" data-tracking-control-name="public_profile_v3_desktop_footer-guest-controls" data-tracking-will-navigate>
+          
+            Guest Controls
+          
+        </a>
+  </li>
+
+        
+  <li class="li-footer__item font-sans text-xs text-color-text-low-emphasis flex flex-shrink-0 justify-start p-1 relative w-50% papabear:justify-center papabear:w-auto">
+        <a class="li-footer__item-link flex items-center font-sans text-xs font-bold text-color-text-low-emphasis hover:text-color-link-hover focus:text-color-link-focus" href="https://www.linkedin.com/legal/professional-community-policies?trk=public_profile_v3_desktop_footer-community-guide" data-tracking-control-name="public_profile_v3_desktop_footer-community-guide" data-tracking-will-navigate>
+          
+          Community Guidelines
+        
+        </a>
+  </li>
+
+        
+<!---->
+          
+          
+  <li class="li-footer__item font-sans text-xs text-color-text-low-emphasis flex flex-shrink-0 justify-start p-1 relative w-50% papabear:justify-center papabear:w-auto">
+        
+              
+
+    
+    
+
+    
+
+    
+
+    <div class="collapsible-dropdown collapsible-dropdown--footer collapsible-dropdown--up flex items-center relative hyphens-auto language-selector z-2">
+<!---->
+        <ul class="collapsible-dropdown__list hidden container-raised absolute w-auto overflow-y-auto flex-col items-stretch z-1 bottom-[100%] top-auto" role="menu" tabindex="-1">
+          
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="??????? (Arabic)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-ar_AE" data-locale="ar_AE" role="menuitem" lang="ar_AE">
+                ??????? (Arabic)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="Ceština (Czech)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-cs_CZ" data-locale="cs_CZ" role="menuitem" lang="cs_CZ">
+                Ceština (Czech)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="Dansk (Danish)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-da_DK" data-locale="da_DK" role="menuitem" lang="da_DK">
+                Dansk (Danish)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="Deutsch (German)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-de_DE" data-locale="de_DE" role="menuitem" lang="de_DE">
+                Deutsch (German)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="English (English) selected" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link--selected" data-tracking-control-name="language-selector-en_US" data-locale="en_US" role="menuitem" lang="en_US">
+                <strong>English (English)</strong>
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="Español (Spanish)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-es_ES" data-locale="es_ES" role="menuitem" lang="es_ES">
+                Español (Spanish)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="Français (French)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-fr_FR" data-locale="fr_FR" role="menuitem" lang="fr_FR">
+                Français (French)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="????? (Hindi)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-hi_IN" data-locale="hi_IN" role="menuitem" lang="hi_IN">
+                ????? (Hindi)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="Bahasa Indonesia (Indonesian)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-in_ID" data-locale="in_ID" role="menuitem" lang="in_ID">
+                Bahasa Indonesia (Indonesian)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="Italiano (Italian)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-it_IT" data-locale="it_IT" role="menuitem" lang="it_IT">
+                Italiano (Italian)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="??? (Japanese)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-ja_JP" data-locale="ja_JP" role="menuitem" lang="ja_JP">
+                ??? (Japanese)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="??? (Korean)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-ko_KR" data-locale="ko_KR" role="menuitem" lang="ko_KR">
+                ??? (Korean)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="Bahasa Malaysia (Malay)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-ms_MY" data-locale="ms_MY" role="menuitem" lang="ms_MY">
+                Bahasa Malaysia (Malay)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="Nederlands (Dutch)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-nl_NL" data-locale="nl_NL" role="menuitem" lang="nl_NL">
+                Nederlands (Dutch)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="Norsk (Norwegian)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-no_NO" data-locale="no_NO" role="menuitem" lang="no_NO">
+                Norsk (Norwegian)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="Polski (Polish)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-pl_PL" data-locale="pl_PL" role="menuitem" lang="pl_PL">
+                Polski (Polish)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="Português (Portuguese)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-pt_BR" data-locale="pt_BR" role="menuitem" lang="pt_BR">
+                Português (Portuguese)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="Româna (Romanian)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-ro_RO" data-locale="ro_RO" role="menuitem" lang="ro_RO">
+                Româna (Romanian)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="??????? (Russian)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-ru_RU" data-locale="ru_RU" role="menuitem" lang="ru_RU">
+                ??????? (Russian)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="Svenska (Swedish)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-sv_SE" data-locale="sv_SE" role="menuitem" lang="sv_SE">
+                Svenska (Swedish)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="??????? (Thai)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-th_TH" data-locale="th_TH" role="menuitem" lang="th_TH">
+                ??????? (Thai)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="Tagalog (Tagalog)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-tl_PH" data-locale="tl_PH" role="menuitem" lang="tl_PH">
+                Tagalog (Tagalog)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="Türkçe (Turkish)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-tr_TR" data-locale="tr_TR" role="menuitem" lang="tr_TR">
+                Türkçe (Turkish)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="?????????? (Ukrainian)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-uk_UA" data-locale="uk_UA" role="menuitem" lang="uk_UA">
+                ?????????? (Ukrainian)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="???? (Chinese (Simplified))" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-zh_CN" data-locale="zh_CN" role="menuitem" lang="zh_CN">
+                ???? (Chinese (Simplified))
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="???? (Chinese (Traditional))" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-zh_TW" data-locale="zh_TW" role="menuitem" lang="zh_TW">
+                ???? (Chinese (Traditional))
+            </button>
+          </li>
+<!---->      
+        </ul>
+
+          
+        <button class="language-selector__button select-none relative pr-2 font-sans text-xs font-bold text-color-text-low-emphasis hover:text-color-link-hover hover:cursor-pointer focus:text-color-link-focus focus:outline-dotted focus:outline-1" aria-expanded="false" data-tracking-control-name="footer-lang-dropdown_trigger">
+          <span class="language-selector__label-text mr-0.5 break-words">
+            Language
+          </span>
+          <icon class="language-selector__label-chevron w-2 h-2 absolute top-0 right-0" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/cyolgscd0imw2ldqppkrb84vo"></icon>
+        </button>
+      
+    </div>
+  
+  
+          
+  </li>
+
+      </ul>
+
+<!---->    </footer>
+  
+  
+  
+
+          
+    <form class="google-one-tap" action="https://www.linkedin.com/uas/login-submit" method="post">
+      <input name="loginCsrfParam" value="d32e131b-ad8f-4bbe-8277-6eb6ab0614a6" type="hidden">
+
+        <input name="session_redirect" value="https://www.linkedin.com/in/kanchan-khadka-33b708260" type="hidden">
+
+      <input name="trk" value="public_profile_google-one-tap-submit" type="hidden">
+      <div id="google-one-tap__container" class="google-one-tap__container" data-tracking-control-name="public_profile_google-one-tap"></div>
+
+      
+    <div class="loader loader--full-screen">
+      <div class="loader__container mb-2 overflow-hidden">
+        <icon class="loader__icon inline-block loader__icon--default text-color-progress-loading" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/ddi43qwelxeqjxdd45pe3fvs1" data-svg-class-name="loader__icon-svg--large fill-currentColor h-[60px] min-h-[60px] w-[60px] min-w-[60px]"></icon>
+      </div>
+    </div>
+  
+    </form>
+  
+
+<!---->
+<!---->
+<!---->
+<!---->
+          
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    <div class="contextual-sign-in-modal strong-conversion-modal" data-impression-id="public_profile_contextual-sign-in-modal" data-cool-off-enabled data-modal="strong-conversion-modal">
+<!---->
+      
+
+    
+    <div class>
+<!---->
+      <div id="public_profile_contextual-sign-in" class="modal modal--contextual-sign-in" data-outlet="public_profile_contextual-sign-in">
+<!---->        <div class="modal__overlay flex items-center bg-color-background-scrim justify-center fixed bottom-0 left-0 right-0 top-0 opacity-0 invisible pointer-events-none z-[1000] transition-[opacity] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] duration-[0.17s]
+            modal__overlay--full-page p-0
+            ">
+          <section aria-modal="true" role="dialog" aria-labelledby="public_profile_contextual-sign-in-modal-header" tabindex="-1" class="max-h-full modal__wrapper overflow-auto p-0 bg-color-surface max-w-[1128px] min-h-[160px] relative scale-[0.25] shadow-sm shadow-color-border-faint transition-[transform] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] duration-[0.33s] focus:outline-0
+              
+              w-[1128px] mamabear:w-[744px] babybear:w-[360px]
+              
+              !w-full h-full rounded-none">
+              
+            <button class="modal__dismiss btn-tertiary h-[40px] w-[40px] p-0 rounded-full indent-0
+                contextual-sign-in-modal__modal-dismiss absolute right-0 m-[20px] cursor-pointer" aria-label="Dismiss" data-tracking-control-name="public_profile_contextual-sign-in-modal_modal_dismiss">
+              <icon class="contextual-sign-in-modal__modal-dismiss-icon" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/gs508lg3t2o81tq7pmcgn6m2"></icon>
+            </button>
+        
+            <main class="modal__main w-full ">
+              
+          <div class="contextual-sign-in-modal__screen contextual-sign-in-modal__context-screen flex flex-col my-4 mx-3">
+              
+      <img class="inline-block relative
+          rounded-[50%]
+          w-16 h-16
+           contextual-sign-in-modal__img m-auto" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/244xhbkr7g40x6bsu4gi6q4ry" data-ghost-classes="bg-color-entity-ghost-background" data-ghost-url="https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2" alt>
+  
+            <h2 class="contextual-sign-in-modal__context-screen-title font-sans text-xl text-color-text my-2 mx-4 text-center" id="public_profile_contextual-sign-in-modal-header">
+              Sign in to view Kanchan’s full profile
+            </h2>
+<!----><!---->            <div class="contextual-sign-in-modal__btn-container m-auto w-[320px] babybear:w-full">
+<!---->              
+    
+    
+    
+    
+
+    <div class="sign-in-modal" data-impression-id="public_profile_contextual-sign-in-modal_sign-in-modal">
+        <button class="sign-in-modal__outlet-btn cursor-pointer btn-md btn-primary" data-tracking-control-name="public_profile_contextual-sign-in-modal_sign-in-modal_outlet-button" data-modal="public_profile_contextual-sign-in_sign-in-modal">
+            Sign in
+        </button>
+
+      
+
+    
+    <div class>
+<!---->
+      <div id="public_profile_contextual-sign-in_sign-in-modal" class="modal modal--sign-in" data-outlet="public_profile_contextual-sign-in_sign-in-modal">
+<!---->        <div class="modal__overlay flex items-center bg-color-background-scrim justify-center fixed bottom-0 left-0 right-0 top-0 opacity-0 invisible pointer-events-none z-[1000] transition-[opacity] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] duration-[0.17s]
+            modal__overlay--full-page p-0
+            ">
+          <section aria-modal="true" role="dialog" aria-labelledby="public_profile_contextual-sign-in_sign-in-modal-modal-header" tabindex="-1" class="max-h-full modal__wrapper overflow-auto p-0 bg-color-surface max-w-[1128px] min-h-[160px] relative scale-[0.25] shadow-sm shadow-color-border-faint transition-[transform] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] duration-[0.33s] focus:outline-0
+              
+              w-[1128px] mamabear:w-[744px] babybear:w-[360px]
+              
+              !w-full h-full rounded-none">
+              
+            <button class="modal__dismiss btn-tertiary h-[40px] w-[40px] p-0 rounded-full indent-0 sign-in-modal__dismiss absolute right-0 cursor-pointer m-[20px]" aria-label="Dismiss" data-tracking-control-name="public_profile_contextual-sign-in-modal_sign-in-modal_dismiss">
+              <icon class="sign-in-modal__dismiss-icon" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/gs508lg3t2o81tq7pmcgn6m2"></icon>
+            </button>
+        
+            <main class="modal__main w-full ">
+              
+          <div class="sign-in-modal__screen flex flex-col py-4 px-3 w-[513px] babybear:w-full">
+            <h2 class="sign-in-modal__header font-sans text-display-md text-color-text">
+                Welcome back
+            </h2>
+            
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <code id="i18n_sign_in_form_show_text" style="display: none"><!--"Show"--></code>
+    <code id="i18n_sign_in_form_show_label" style="display: none"><!--"Show your LinkedIn password"--></code>
+    <code id="i18n_sign_in_form_hide_text" style="display: none"><!--"Hide"--></code>
+    <code id="i18n_sign_in_form_hide_label" style="display: none"><!--"Hide your LinkedIn password"--></code>
+
+    
+    <code id="i18n_username_error_empty" style="display: none"><!--"Please enter an email address or phone number"--></code>
+    
+    <code id="i18n_username_error_too_long" style="display: none"><!--"Email or phone number must be between 3 to 128 characters"--></code>
+    <code id="i18n_username_error_too_short" style="display: none"><!--"Email or phone number must be between 3 to 128 characters"--></code>
+
+    
+    <code id="i18n_password_error_empty" style="display: none"><!--"Please enter a password"--></code>
+    
+    <code id="i18n_password_error_too_short" style="display: none"><!--"The password you provided must have at least 6 characters"--></code>
+    
+    <code id="i18n_password_error_too_long" style="display: none"><!--"The password you provided must have at most 400 characters"--></code>
+
+    <form data-id="sign-in-form" action="https://www.linkedin.com/uas/login-submit" method="post" novalidate class="mt-1.5 mb-2">
+      <input name="loginCsrfParam" value="d32e131b-ad8f-4bbe-8277-6eb6ab0614a6" type="hidden">
+
+      <div class="flex flex-col">
+        
+    <div class="mt-1.5" data-js-module-id="guest-input">
+      <div class="flex flex-col">
+        <label class="input-label mb-1" for="public_profile_contextual-sign-in_sign-in-modal_session_key">
+          Email or phone
+        </label>
+        <div class="text-input flex">
+          <input class="text-color-text font-sans text-md outline-0 bg-color-transparent grow" autocomplete="username" id="public_profile_contextual-sign-in_sign-in-modal_session_key" name="session_key" required type="text">
+          
+        </div>
+      </div>
+
+      <p class="input-helper mt-1.5" for="public_profile_contextual-sign-in_sign-in-modal_session_key" role="alert" data-js-module-id="guest-input__message"></p>
+    </div>
+  
+
+        
+    <div class="mt-1.5" data-js-module-id="guest-input">
+      <div class="flex flex-col">
+        <label class="input-label mb-1" for="public_profile_contextual-sign-in_sign-in-modal_session_password">
+          Password
+        </label>
+        <div class="text-input flex">
+          <input class="text-color-text font-sans text-md outline-0 bg-color-transparent grow" autocomplete="current-password" id="public_profile_contextual-sign-in_sign-in-modal_session_password" name="session_password" required type="password">
+          
+            <button aria-live="assertive" data-id="sign-in-form__password-visibility-toggle" class="font-sans text-md font-bold text-color-action z-10 ml-[12px] hover:cursor-pointer" aria-label="Show your LinkedIn password" data-tracking-control-name="public_profile_contextual-sign-in-modal_sign-in-modal_sign-in-password-visibility-toggle-btn" type="button">Show</button>
+          
+        </div>
+      </div>
+
+      <p class="input-helper mt-1.5" for="public_profile_contextual-sign-in_sign-in-modal_session_password" role="alert" data-js-module-id="guest-input__message"></p>
+    </div>
+  
+
+        <input name="session_redirect" value="https://www.linkedin.com/in/kanchan-khadka-33b708260" type="hidden">
+
+<!---->      </div>
+
+      <div data-id="sign-in-form__footer" class="flex justify-between
+          sign-in-form__footer--full-width">
+        <a data-id="sign-in-form__forgot-password" class="font-sans text-md font-bold link leading-regular
+            sign-in-form__forgot-password--full-width" href="https://www.linkedin.com/uas/request-password-reset?trk=public_profile_contextual-sign-in-modal_sign-in-modal_forgot_password" data-tracking-control-name="public_profile_contextual-sign-in-modal_sign-in-modal_forgot_password" data-tracking-will-navigate>Forgot password?</a>
+
+<!---->
+        <input name="trk" value="public_profile_contextual-sign-in-modal_sign-in-modal_sign-in-submit" type="hidden">
+        <button class="btn-md btn-primary flex-shrink-0 cursor-pointer
+            sign-in-form__submit-btn--full-width" data-id="sign-in-form__submit-btn" data-tracking-control-name="public_profile_contextual-sign-in-modal_sign-in-modal_sign-in-submit-btn" data-tracking-litms type="submit">
+          Sign in
+        </button>
+      </div>
+        <div class="sign-in-form__divider left-right-divider pt-2 pb-3">
+          <p class="sign-in-form__divider-text font-sans text-sm text-color-text px-2">
+            or
+          </p>
+        </div>
+    </form>
+      
+    
+
+    <form class="google-sign-in-cta-widget" action="https://www.linkedin.com/uas/login-submit" method="post" novalidate>
+      <input name="loginCsrfParam" value="d32e131b-ad8f-4bbe-8277-6eb6ab0614a6" type="hidden">
+
+        <input name="session_redirect" value="https://www.linkedin.com/in/kanchan-khadka-33b708260" type="hidden">
+
+      <input name="trk" value="public_profile_contextual-sign-in-modal_sign-in-modal_google-sign-in-submit" type="hidden">
+      <button class="google-sign-in-cta-widget__btn btn-md btn-secondary hover:cursor-pointer flex items-center justify-center w-full h-auto" data-tracking-control-name="public_profile_contextual-sign-in-modal_sign-in-modal_google-sign-in-btn" data-tracking-litms type="button">
+        <icon class="google-sign-in-cta-widget__icon onload w-[18px] min-h-[18px] leading-[18px] block" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/36lpn9v7fqsm6i7t6ny8bgacs"></icon>
+        <span class="google-sign-in-cta-widget__text ml-2">Sign in with Google</span>
+      </button>
+
+      
+    <div class="loader loader--full-screen">
+      <div class="loader__container mb-2 overflow-hidden">
+        <icon class="loader__icon inline-block loader__icon--default text-color-progress-loading" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/ddi43qwelxeqjxdd45pe3fvs1" data-svg-class-name="loader__icon-svg--large fill-currentColor h-[60px] min-h-[60px] w-[60px] min-w-[60px]"></icon>
+      </div>
+    </div>
+  
+    </form>
+  
+    <!---->  
+              <p class="sign-in-modal__join-now m-auto font-sans text-md text-color-text
+                  mt-2">
+                New to LinkedIn? <a href="https://www.linkedin.com/signup/public-profile-join?vieweeVanityName=kanchan-khadka-33b708260&trk=public_profile_contextual-sign-in-modal_sign-in-modal_join-link" data-tracking-control-name="public_profile_contextual-sign-in-modal_sign-in-modal_join-link" data-tracking-will-navigate="true" class="sign-in-modal__join-link">Join now</a>
+              </p>
+          </div>
+        
+            </main>
+
+<!---->          </section>
+        </div>
+      </div>
+    </div>
+  
+    </div>
+  
+
+              <div class="contextual-sign-in-modal__divider left-right-divider">
+                <p class="contextual-sign-in-modal__divider-text font-sans text-sm text-color-text px-2">
+                  or
+                </p>
+              </div>
+                
+    
+
+    <form class="google-sign-in-cta-widget contextual-sign-in-modal__google-sign-in-cta-widget" action="https://www.linkedin.com/uas/login-submit" method="post" novalidate>
+      <input name="loginCsrfParam" value="d32e131b-ad8f-4bbe-8277-6eb6ab0614a6" type="hidden">
+
+        <input name="session_redirect" value="https://www.linkedin.com/in/kanchan-khadka-33b708260" type="hidden">
+
+      <input name="trk" value="public_profile_contextual-sign-in-modal_google-sign-in-submit" type="hidden">
+      <button class="google-sign-in-cta-widget__btn btn-md btn-secondary hover:cursor-pointer flex items-center justify-center w-full h-auto" data-tracking-control-name="public_profile_contextual-sign-in-modal_google-sign-in-btn" data-tracking-litms type="button">
+        <icon class="google-sign-in-cta-widget__icon onload w-[18px] min-h-[18px] leading-[18px] block" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/36lpn9v7fqsm6i7t6ny8bgacs"></icon>
+        <span class="google-sign-in-cta-widget__text ml-2">Sign in with Google</span>
+      </button>
+
+      
+    <div class="loader loader--full-screen">
+      <div class="loader__container mb-2 overflow-hidden">
+        <icon class="loader__icon inline-block loader__icon--default text-color-progress-loading" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/ddi43qwelxeqjxdd45pe3fvs1" data-svg-class-name="loader__icon-svg--large fill-currentColor h-[60px] min-h-[60px] w-[60px] min-w-[60px]"></icon>
+      </div>
+    </div>
+  
+    </form>
+  
+                          </div>
+              <p class="contextual-sign-in-modal__join-now m-auto font-sans text-md text-color-text">
+                New to LinkedIn? <a href="https://www.linkedin.com/signup/public-profile-join?vieweeVanityName=kanchan-khadka-33b708260&trk=public_profile_contextual-sign-in-modal_join-link" data-tracking-control-name="public_profile_contextual-sign-in-modal_join-link" data-tracking-will-navigate="true" class="contextual-sign-in-modal__join-link">Join now</a>
+              </p>
+          </div>
+        
+            </main>
+
+<!---->          </section>
+        </div>
+      </div>
+    </div>
+  
+    </div>
+  
+
+          <code id="enableFingerprintingJS" style="display: none"><!--true--></code>
+          <code id="fingerprintingUrlPath" style="display: none"><!--"/platform-telemetry/li/collect"--></code>
+          <code id="fingerprintingWaitTime" style="display: none"><!--2000--></code>
+          <code id="fid" style="display: none"><!--"AQE1MhAdQRy_EgAAAYdIiq8bI9R7fjbRKC6p_yWWU39AxcejFttjL-fS38LNJaQIPgrZdgOLyEdnAQ"--></code>
+
+        <code id="enablePlatformJs" style="display: none"><!--true--></code>
+
+          
+    <img class="bc " style="display:none;" width="1" height="1" data-delayed-url="https://ponf.linkedin.com/pixel/tracking.png?reqid=tid-AAX4c12zl3hPfIZ2p2lUAA==&amp;pageInstance=urn:li:page:public_profile_v3;jCrp0GCBSt6LGyeeQehSPQ==&amp;js=enabled">
+      <noscript>
+        <img class="bc " style="display:none;" width="1" height="1" src="https://ponf.linkedin.com/pixel/tracking.png?reqid=tid-AAX4c12zl3hPfIZ2p2lUAA==&amp;pageInstance=urn:li:page:public_profile_v3;jCrp0GCBSt6LGyeeQehSPQ==&amp;js=disabled">
+      </noscript>
+  
+
+        
+    <script src="https://static.licdn.com/aero-v1/sc/h/4gwvz3ivndmfps2irga09jge0" async></script>
+  
+      
+
+            <script src="https://static.licdn.com/aero-v1/sc/h/9tzpnflx2pp963wq2y1gtrnij" async></script>
+          
+          <script data-delayed-url="https://static.licdn.com/aero-v1/sc/h/etkd25e7kzp2lrg1w9y0kixlu" data-module-id="google-sign-in-lib"></script>
+          <script data-delayed-url="https://static.licdn.com/aero-v1/sc/h/98lptr8kagfxge22q7k1fps8" data-module-id="google-one-tap-lib"></script>
+          
+    <script id="insightsTag" type="text/javascript">
+      _linkedin_partner_id = "3252572"; window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+      window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+    </script><script type="text/javascript">
+      (function(l) { if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])}; window.lintrk.q=[]} var s =
+      document.getElementsByTagName("script")[0]; var b = document.createElement("script"); b.type =
+      "text/javascript";b.async = true; b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+      s.parentNode.insertBefore(b, s);})(window.lintrk);
+    </script>
+    <noscript>
+      <img height="1" width="1" style="display:none;" alt src="https://px.ads.linkedin.com/collect/?pid=3252572&amp;fmt=gif">
+    </noscript>
+  
+      
+      <!-- Code injected by live-s
